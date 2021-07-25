@@ -29,12 +29,11 @@
 
 \usepackage[
 backend=biber,
-style=numeric,
+style=ieee,
 sorting=none
 ]{biblatex}
 
 \addbibresource{main.bib}
-
 
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
@@ -48,18 +47,10 @@ sorting=none
 \usepackage{wrapfig} % Allows in-line images
 
 \usepackage{booktabs} % Required for better horizontal rules in tables
+\usepackage{csquotes}
 
 \usepackage{enumitem} % Required for list customisation
 \setlist{noitemsep} % No spacing between list items
-
-\usepackage[
-backend=biber,
-style=numeric,
-sorting=none
-]{biblatex}
-
-\addbibresource{main.bib}
-
 
 \makeatletter
 \renewcommand\@biblabel[1]{\textbf{#1.}} % Remove the square brackets from each bibliography item ('[1]' to '1.')
